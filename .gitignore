@@ -1,0 +1,61 @@
+# --- Python / Django ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environment ---
+venv/
+env/
+ENV/
+.env/
+# --- Environment Variables & Secrets ---
+.env
+
+# --- Database ---
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Dataset / Large CSV Files (Optional) ---
+# Uncomment the lines below if you want to keep your large CSV datasets local and out of GitHub
+# *.csv
+# *.txt
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Operating System Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
